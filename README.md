@@ -45,5 +45,5 @@ Installing Cors headers
 `pip install cora `
 
 
-unning the server
+running the server
 `npm start`
