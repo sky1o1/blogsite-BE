@@ -47,3 +47,5 @@ Installing Cors headers
 
 running the server
 `npm start`
+
+The backend is hosted at https://ibriz-blog-site-backend.herokuapp.com/api/v1/
