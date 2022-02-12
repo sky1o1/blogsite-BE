@@ -10,29 +10,29 @@ Full documentation for the Node Js is available at https://nodejs.org/en/docs/.
 
 Requirements
 ===
-React Js ^16.13.1
+React Js 16.13.1
 
 Node Js	v14.0.0	
 
-bcryptjs ^2.4.3
+bcryptjs 2.4.3
 
-cookie-parser ^1.4.6
+cookie-parser 1.4.6
 
-cors ^2.8.5
+cors 2.8.5
 
-dotenv "^16.0.0
+dotenv 16.0.0
 
-express ^4.17.2
+express 4.17.2
 
-jsonwebtoken ^8.5.1
+jsonwebtoken 8.5.1
 
-mongoose ^6.1.3
+mongoose 6.1.3
 
-morgan ^1.10.0
+morgan 1.10.0
 
-nodemon ^2.0.15
+nodemon 2.0.15
 
-slugify^1.6.4
+slugify 1.6.4
 
 Installation
 ===
