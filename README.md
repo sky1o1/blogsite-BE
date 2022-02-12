@@ -42,7 +42,7 @@ Installing packages from package.json file
 
 
 Installing Cors headers
-`pip install cora `
+`npm install cors `
 
 
 running the server
