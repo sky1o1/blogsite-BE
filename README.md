@@ -50,6 +50,11 @@ Installing Cors headers
 running the server
 `npm start`
 
-Host
+Deployment
 ===
-The backend is hosted at https://ibriz-blog-site-backend.herokuapp.com/api/v1/
+Backend deployment : https://heroku.com/
+Deployed app at https://ibriz-blog-site-backend.herokuapp.com
+
+
+For api tetsing postman was used.
+API documentation : https://documenter.getpostman.com/view/12120647/UVeMKPeC?fbclid=IwAR2MD8ZHXYXUwyW9iLmos_kR13uFfc20e0-W7ULb3URgsakeNXIcqjFVm90
