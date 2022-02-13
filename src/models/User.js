@@ -26,6 +26,10 @@ const UserSchema = new mongoose.Schema(
       minlength: [6, "Please enter a password longer than 6 characters"],
       select: false,
     },
+    photo: {
+      type: String,
+      default: "no-photo.jpeg",
+    },
     resetPasswordToken: String,
     resetPasswordExpire: Date,
   },

@@ -6,6 +6,7 @@ const cookieParser = require("cookie-parser");
 const errorHandler = require("./middleware/error");
 const connectDB = require("./config/db");
 const cors = require("cors");
+const fileupload = require("express-fileupload");
 
 // LOAD env vars
 dotenv.config({ path: "./config/config.env" });
@@ -15,6 +16,7 @@ connectDB();
 
 // Export Route files
 const blogsRouter = require("./src/routes/blogRoute");
+const userRouter = require("./src/routes/userRoute");
 const authRouter = require("./src/routes/authRoute");
 
 const app = express();
@@ -27,6 +29,9 @@ if (process.env.Node_Env === "development") {
   app.use(morgan);
 }
 
+//File upload
+app.use(fileupload());
+
 // CORS
 app.use(cors());
 
@@ -38,6 +43,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // Mount routers
 app.use("/api/v1/blogs", blogsRouter);
 app.use("/api/v1/auth", authRouter);
+app.use("/api/v1/user", userRouter);
 
 app.use(errorHandler);
 
