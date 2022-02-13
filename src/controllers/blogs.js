@@ -1,4 +1,3 @@
-const path = require("path");
 const Blog = require("../models/Blog");
 const ErrorResponse = require("../../utills/errorResponse");
 const asyncHandler = require("../../middleware/async");

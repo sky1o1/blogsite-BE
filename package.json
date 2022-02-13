@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon index",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "author": "Aakash Dangol",
   "license": "ISC",
@@ -19,7 +19,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15",
-    "slugify": "^1.6.4"
+    "nodemon": "^2.0.15"
   }
 }
